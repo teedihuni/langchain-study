@@ -11,7 +11,7 @@ import random
 load_dotenv()
 # 프로젝트 이름을 입력합니다.
 logging.langsmith("CH01-Basic")
-output_parser = StrOutputParser()
+output_parser = StrOutputParser() # 결과값만 str으로 내보내는 기능
 
 
 # 출력 3
