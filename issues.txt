@@ -1,3 +1,4 @@
 1. CH03 - 01 pydantic model version 3.5로 진행시에 print(response.content) 적절하게 생성하지 못함.
     - 4 version으로 변경하면 적절하게 생성됨
-2. CH03 - 03 구조화된 출력파서 HEAD LINE 제목 오류
+2. CH03 - 03 구조화된 출력파서 HEAD LINE 제목 오타
+3. CH03 - 05 df_query = "Retrieve the passenges ages." 부분에서 passengers오타도 있지만 ages는 error발생 / age로 해야 돌아감
