@@ -1,2 +1,5 @@
 *.env
 .vscode
+models*/
+*.pkl
+*.db
