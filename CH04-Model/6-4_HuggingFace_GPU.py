@@ -25,7 +25,7 @@ os.environ["HF_HOME"] = "/home/dhlee2/workspace/my_github/LangChain/CH04-Model"
 
 #model_repo = "yanolja/EEVE-Korean-2.8B-v1.0" #2080 8G에 못올림
 model_repo = "Qwen/Qwen2-1.5B-Instruct"
-model_repo = "Qwen/Qwen2-7B-Instruct-q3_k_m"
+#model_repo = "Qwen/Qwen2-7B-Instruct-q3_k_m"
 
 # 모델 부르기
 gpu_llm = HuggingFacePipeline.from_model_id(
