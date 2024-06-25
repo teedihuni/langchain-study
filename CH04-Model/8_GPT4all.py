@@ -13,7 +13,7 @@ local_path = (
 )
 
 from langchain.prompts import PromptTemplate
-from langchain_community.llms import GPT4All
+from gpt4all import GPT4All
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
