@@ -10,6 +10,9 @@ load_dotenv()
 # 프로젝트 이름을 입력합니다.
 logging.langsmith("CH01-Basic")
 
+## LangChain Expression Language(LCEL)
+# 가장 기본적이고 일반적인 방법으로 Chain을 구성
+#  | 를 사용하여 prompt와 model을 연결
 
 # from_template 메소드 사용해서 PromptTemplate객체 생성
 prompt = PromptTemplate.from_template("{topic} 에 대해 쉽게 설명해주세요.")

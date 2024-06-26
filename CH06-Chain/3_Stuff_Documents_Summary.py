@@ -1,6 +1,9 @@
 from dotenv import load_dotenv
 load_dotenv()
 
+from langchain_teddynote import logging
+logging.langsmith('CH06-Chain')
+
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
